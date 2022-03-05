@@ -3,6 +3,7 @@ title: Vanilo 3.0 Released
 excerpt: Vanilo 3.0 has been released with Shipments, Variants and many other features. See what's new.
 date: 2022-03-05
 tags: [Releases, News, 'Vanilo 3']
+featured: true
 ---
 Vanilo 3.0 has been released with the following features:
 
