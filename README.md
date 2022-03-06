@@ -23,6 +23,11 @@ Feel free to contribute by submitting new articles via pull requests.
     - `excerpt`: Short (1-2 sentences) summary of the article. Gets shown in the article list.
     - `date`: The date of the article in `YYYY-mm-dd` format, eg.: `2019-04-21`.
 - The article must not begin with the title/h1, because it gets added from the title from the yaml front matter section.
+- An image must be added having the following properties:
+  - JPEG
+  - 795x442 pixels
+  - placed in the `img/` folder
+  - having the same filename as the article itself, but having `.jpg` extension instead of `.md`
 
 ### Example Article
 
@@ -30,7 +35,8 @@ Feel free to contribute by submitting new articles via pull requests.
 ---
 title: Vanilo 3.0 Released
 excerpt: Vanilo 3.0 has been released with Shipments, Variants and many other features. See what's new.
-date: 2022-02-28 
+date: 2022-02-28
+tags: [Releases, News, 'Vanilo 3']
 ---
 Vanilo 3.0 has been released with the following features:
 

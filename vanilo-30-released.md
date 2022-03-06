@@ -9,8 +9,6 @@ Vanilo 3.0 has been released with the following features:
 
 To be written shortly. Testing for now.
 
-![product variant links](img/_variant_links.png)
-
 ```php
 Establish::a('variant')->link()
     ->basedOn('color') // The slug of the property
