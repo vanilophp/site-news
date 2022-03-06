@@ -1,7 +1,7 @@
 ---
 title: Product Variants Feature
 excerpt: Product variants have been a long-awaited feature. There are multiple implementation approaches, here they're explained.
-date: 2022-03-06
+date: 2022-02-27
 tags: [Features, Documentation, 'Vanilo 3']
 featured: false
 ---
