@@ -64,15 +64,48 @@ Vanilo will support both product variant "schools" via:
 - the [Master Products Module](https://vanilo.io/docs/3.x/master-products).
 
 The Links module is part of the 3.0 release, whereas the Master Products module
-will be released with 3.1, in March 2022.
+will only be released with 3.1, in March 2022.
 
-## Links Module
+> For detailed description of the Links Module, see the [Links Documentation](https://vanilo.io/docs/3.x/links).
 
-to be written
+## Shipments
 
-```php
-Establish::a('variant')->link()
-    ->basedOn('color') // The slug of the property
-    ->between($iphone13Mem128GColorBlue)
-    ->and($iphone13Mem128GColorRed, $iphone13Mem128GColorBlack, $iphone13Mem128GColorWhite);
-```
+Vanilo 3.0 has another brand-new module, the **Shipment Module**.
+
+As of v3.0 the module supports the handling of shipments. Each `Shipment` can have a 
+`Carrier` assigned. Carriers have name and configuration attributes, and can be set inactive.
+
+Besides the carrier, shipments have tracking number, a shipping [address](https://vanilo.io/docs/3.x/addresses),
+a status enum, comment, configuration, dimensions and weight and can be marked as trackable/non-trackable.
+
+The handling of shipping fees is handled by the upcoming
+[Adjustments](https://vanilo.io/docs/3.x/adjustments) module. 
+
+> For detailed description of the Shipment Module, see the [Shipping Documentation](https://vanilo.io/docs/3.x/shipping).
+
+## New Product Features
+
+The base product model has several new fields (all of them are optional):
+
+- `original_price`: for very simple promotions,
+- Dimensions: `width`, `height` and `length`, and
+- `weight`.
+
+## Breaking Changes
+
+The most important difference is that the `Vanilo\Framework` namespace
+has been renamed to `Vanilo\Foundation`.
+
+In order to maintain the compatibility with existing codebases, a namespace
+alias has been created. This alias will be removed in Vanilo 4.
+
+As a consequence of the namespace change, the corresponding `vanilo.framework.*`
+config values have been renamed to `vanilo.foundation.*.`.
+
+Apart from these changes, the `Buyable` and the `Property` interfaces have changed.
+
+> For a complete list of BCs and upgrade instructions see the [Upgrade Guide](https://vanilo.io/docs/3.x/upgrade)
+
+If you have issues or questions regarding the Vanilo 3 upgrade, feel free to [open an issue at Github](https://github.com/vanilophp/framework/issues).
+
+Wish you all a smooth upgrade! 🎉
