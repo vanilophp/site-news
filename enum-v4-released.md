@@ -9,6 +9,13 @@ Enum 4.0 has been released on the 10th of March 2022.
 At the moment of writing, Vanilo 3.0 is not supporting Enum v4, but most
 likely the upcoming v3.1 release will allow using v4 enums as well.
 
+It is important to note, that it is **NOT necessary to upgrade** to Enum v4,
+and **Vanilo will keep supporting v3 Enums** for good.
+
+Unless you're a strict type absolutist, or you're having issues with your numeric
+Enums, there is no need to upgrade to V4. However if you would like to, here's a
+list of things to consider about it.
+
 Enum v4 contains some housekeeping changes like dropping support for older PHP versions,
 and one significant change: **All the values of the enums are now strictly typed.**
 
