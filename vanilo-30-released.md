@@ -43,10 +43,12 @@ the works of Vanilo 3.0
 
 ## Admin Has Been Removed
 
-We learned during the years, that many of the application using Vanilo were not
-using its own admin. Still being present required extra steps and caused extra
-code loaded. Therefore in Vanilo 3.0 the admin package has been removed from
-Vanilo Core (the framework) and it is available as a separate composer package: `vanilo/admin`.
+We learned during the years, that many of the applications using Vanilo, were not
+using the Vanilo Admin. The unused part being present, required extra steps from
+the developers, and caused extra code to loaded with the app. Therefore, in Vanilo
+3.0 the admin package has been removed from Vanilo Core (the framework).
+
+It is now available as a separate composer package: `vanilo/admin`.
 
 ## Product Variants
 
