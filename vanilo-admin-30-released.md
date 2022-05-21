@@ -3,6 +3,7 @@ title: Vanilo Admin 3.0 Released
 excerpt: Vanilo Admin has become optional as of v3.0. It has been released with a refreshed UI and AlpineJS under the hood.
 date: 2022-05-21
 tags: [Releases, News, Admin, 'Vanilo 3', Admin]
+featured: true
 ---
 Vanilo Admin v3.0 has been released with a refreshed user interface and several smaller changes.
 
