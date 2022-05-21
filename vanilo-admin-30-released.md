@@ -22,10 +22,6 @@ The Vanilo Admin has become an optional and standalone module as of Vanilo v3.0.
 
 ![Admin v3](img/_admin3.png)
 
--->> create a splash screen along with a featured one
--->> make the article featured
--->> add screenshots with old and new, use vanilo screens, not default appshell ones
-
 ## Minimum Requirements
 
 As part of the Vanilo 3 series, the Admin package requires PHP 8+ and Laravel 9.
