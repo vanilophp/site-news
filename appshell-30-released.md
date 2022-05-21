@@ -17,11 +17,6 @@ AppShell v3.0 has been released with a refreshed user interface and several smal
 
 ![AppShell 3](img/_appshell3.png)
 
--->> create a splash screen along with a featured one
--->> make the article featured
--->> add screenshots with old and new, use vanilo screens, not default appshell ones
--->> maybe make a separate article for AppShell as well??
-
 ## Minimum Requirements
 
 The AppShell package requires PHP 8.0 or PHP 8.1 and Laravel 9.x.
