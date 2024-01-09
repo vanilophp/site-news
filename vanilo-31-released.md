@@ -3,7 +3,7 @@ title: Vanilo 3.1 Released
 excerpt: Vanilo 3.1 has been released with Master Products, Adjustments and PHP 8.2 support. See what's new.
 date: 2022-11-07
 tags: [Releases, News, 'Vanilo 3']
-featured: true
+featured: false
 ---
 Vanilo 3.1 has been released with the long awaited master products feature, and the new adjustments module.
 
