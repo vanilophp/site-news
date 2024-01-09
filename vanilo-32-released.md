@@ -3,7 +3,7 @@ title: Vanilo 3.2 Released
 excerpt: Vanilo 3.2 has been released with the session-based checkout store. See what's new.
 date: 2022-12-08
 tags: [Releases, News, 'Vanilo 3']
-featured: true
+featured: false
 ---
 Vanilo 3.2 has been released with the persistent, session-based checkout store and other improvements.
 
