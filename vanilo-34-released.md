@@ -3,7 +3,7 @@ title: Vanilo 3.4 Released
 excerpt: Vanilo 3.4 has been released with configurable cart & order items. See what's new.
 date: 2023-01-25
 tags: [Releases, News, 'Vanilo 3']
-featured: true
+featured: false
 ---
 Vanilo 3.4 has been released with first-party configurable product support for cart & order items.
 
