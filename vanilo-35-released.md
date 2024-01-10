@@ -3,7 +3,7 @@ title: Vanilo 3.5 Released
 excerpt: Vanilo 3.5 has been released with shipping and fulfillment features. See what's new.
 date: 2023-02-23
 tags: [Releases, News, 'Vanilo 3']
-featured: true
+featured: false
 ---
 Vanilo 3.5 has been released with Shippable and Fulfillment features.
 
@@ -33,7 +33,7 @@ These are the available fulfillment statuses:
 - `on_hold`: An item is on hold when there's a reservation but the transaction has not been confirmed/paid yet. Processing should not begin until the order/transaction is confirmed.     */
 - `awaiting`: The item has been picked, processed, and packaged, and is ready for delivery. It needs a pickup by the delivery personnel
 - `partially_fulfilled`: Only some parts of the subject have been handed over to a delivery personnel
-- `ready_for_pickup`: The item has been prepared and can be picked up from the specified location
+- `ready_for_pickup`: The item has been prepared and can be picked up from the specified location _(added in v3.6)_ 
 - `fulfilled`: The item has been handed over to a delivery personnel
 
 ## Shipping Features
