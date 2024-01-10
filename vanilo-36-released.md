@@ -82,10 +82,10 @@ Adjustable Cart model in foundation.
 
 The following fields are now regular fields of the checkout:
 
-- shipping_method_id
-- payment_method_id
-- ship_to_billing_address
-- notes
+- `shipping_method_id`
+- `payment_method_id`
+- `ship_to_billing_address`
+- `notes`
 
 The `vanilo.checkout.default.weight_unit` config key has been added, which defaults to 'kg'.
 
@@ -134,4 +134,4 @@ class B2BOrderFactory extends OrderFactory
 }
 ```
 
-- Added the `payable_remote_id` field with getter/setter methods to the Foundation Order model
+The `payable_remote_id` field (along with getter/setter methods) has been added to the Foundation Order model.
