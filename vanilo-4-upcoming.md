@@ -1,6 +1,6 @@
 ---
-title: Vanilo 4.0 - When? What?
-excerpt: A look at what's coming to Vanilo 4. And when.
+title: Vanilo 4.0 - Coming Soon
+excerpt: What's coming to Vanilo 4.. and when.
 date: 2024-01-10
 tags: [Releases, News, 'Vanilo 4']
 featured: true
@@ -11,9 +11,9 @@ featured: true
 Vanilo 4.0 will be released **shortly after the Laravel 11** release, which is officially **Q1 2024**,
 [some sources claim](https://benjamincrozat.com/laravel-11) that it is _February 6th, 2024_.
 
-We also expect that Laravel 11 will come out in February 2024, which means Vanilo 4 is expected to be released in February 2024.
+We also expect that Laravel 11 will come out in February 2024, which means Vanilo 4 is expected to be released in February 2024 too.
 
-Vanilo 4 is a major version and will contain breaking changes.
+Vanilo 4 is a major version and will contain **breaking changes**.
 
 ## Preface
 
@@ -39,14 +39,15 @@ Vanilo 4 will support Laravel 11, and _most probably_ Laravel 10. Why "most prob
 Because Laravel 11 is not yet final, and we can't yet tell if there will be any breaking changes in Laravel 11
 that would heavily affect Vanilo.
 
-Especially the upcoming `$casts` -> `casts()` changes of Eloquent models can cause surprises if Laravel decides to
-drop the old way (based on the `$casts` property) of defining attribute casts. So far, Vanilo 4 dev versions work well
-with Laravel 11 dev versions.
+Especially the upcoming `$casts -> casts()` changes of Eloquent models can cause surprises if Laravel decides to
+drop the old way (based on the `$casts` property) of defining attribute casts.
+
+So far, Vanilo 4 dev versions work well with Laravel 11 dev versions.
 
 If we'll have to decide whether Vanilo 4 should be compatible Laravel 10 or with Laravel 11, and there will be no easy
 way to support both, then we'll opt for Laravel 11 and drop Laravel 10 support.
 
-But, our aim is to support both Laravel 10 and 11 if possible.
+But, our aim is Vanilo 4 to support both Laravel 10 and 11 if possible.
 
 ## Breaking Changes
 
