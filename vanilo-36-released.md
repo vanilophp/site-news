@@ -3,7 +3,7 @@ title: Vanilo 3.6 Released
 excerpt: Vanilo 3.6 has been released with Laravel 10 support and tons features. See what's new.
 date: 2023-03-07
 tags: [Releases, News, 'Vanilo 3']
-featured: true
+featured: false
 ---
 Vanilo 3.6 has been released with Laravel 10 support, new checkout, order and adjustment features. 
 

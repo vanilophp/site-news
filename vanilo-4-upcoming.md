@@ -3,7 +3,7 @@ title: Vanilo 4.0 - Coming Soon
 excerpt: What's coming to Vanilo 4.. and when.
 date: 2024-01-10
 tags: [Releases, News, 'Vanilo 4']
-featured: true
+featured: false
 ---
 
 > Vanilo 4 is not yet final, the list of features below may change!
