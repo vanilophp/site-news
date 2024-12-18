@@ -3,7 +3,7 @@ title: Vanilo 4.1 Released
 excerpt: Vanilo 4.1 has been released with improved orders, links, product search and categorization features. See what's new.
 date: 2024-07-11
 tags: [Releases, News, 'Vanilo 4']
-featured: true
+featured: false
 ---
 Vanilo 4.1 has been released with improved orders, links, product search and categorization features.
 
@@ -64,4 +64,4 @@ It is now possible, to create, edit and delete links between products:
 - Added the discountable shipping fee calculator;
 - Added support for configurable decimal separator used by the `format_price()` helper function
 
-> For the full list of changes, including BCs, see the [Vanilo 4.1 Changelog](https://github.com/vanilophp/framework/blob/4.1.0/Changelog.md#410)
+> For the full list of changes, see the [Vanilo 4.1 Changelog](https://github.com/vanilophp/framework/blob/4.1.0/Changelog.md#410)
