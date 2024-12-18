@@ -5,7 +5,7 @@ date: 2024-12-14
 tags: [Releases, News, 'Vanilo 4']
 featured: true
 ---
-Vanilo 4.2 has been released with improved orders, links, product search and categorization features.
+Vanilo 4.2 has been released with support for promotions, coupons and PHP 8.4.
 
 ## Promotion Module
 
