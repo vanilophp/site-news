@@ -1,7 +1,7 @@
 ---
 title: Vanilo 4.2 Released
 excerpt: Vanilo 4.2 has been released with support for promotions, coupons and PHP 8.4. See what's new.
-date: 2024-12-11
+date: 2024-12-14
 tags: [Releases, News, 'Vanilo 4']
 featured: true
 ---
