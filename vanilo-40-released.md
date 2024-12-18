@@ -3,7 +3,7 @@ title: Vanilo 4.0 Released
 excerpt: Vanilo 4.0 has been released with support for Laravel 11, multiple currencies, extended taxes, geo zones and channels. See what's new.
 date: 2024-04-25
 tags: [Releases, News, 'Vanilo 4']
-featured: true
+featured: false
 ---
 Vanilo 4.0 has been released with Laravel 11 support, new checkout, order and adjustment features.
 
