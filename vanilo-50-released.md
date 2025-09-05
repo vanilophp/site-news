@@ -10,9 +10,9 @@ Vanilo 5.0 has been released with support for videos, translations and Laravel 1
 
 ## Supported Versions
 
-- PHP 8.2 support has been removed
-- Laravel 10 is still supported, but v10.48 is required
-- Laravel 11 and Larave 12 are both supported
+- PHP 8.2 support has been removed; PHP 8.3 & 8.4 are supported
+- Laravel 10 is still supported, but v10.48 is minimally required
+- Laravel 11 and Laravel 12 are both supported
 
 ## Video Module
 
@@ -103,6 +103,8 @@ cart item products' shipping category and the shipping address' zones.
 If you don't want any of the default checkers, you can instruct the class to skip them:
 
 ```php
+use Vanilo\Foundation\Shipping\Method\Eligibility\AvailableShippingMethods;
+
 AvailableShippingMethods::forCheckout($checkout)
     ->withoutZoneCheck()
     ->withoutCategoryCheck() 
