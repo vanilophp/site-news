@@ -3,7 +3,7 @@ title: Vanilo 5.0 Released
 excerpt: Vanilo 5.0 has been released with Videos, Laravel 12 support, cart/order subitems, advanced shipping, Product GTIN and many more. See what's new.
 date: 2025-09-03
 tags: [Releases, News, 'Vanilo 5']
-featured: true
+featured: false
 ---
 
 Vanilo 5.0 has been released with support for videos, translations and Laravel 12.
