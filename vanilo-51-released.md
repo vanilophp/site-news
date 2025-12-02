@@ -123,7 +123,7 @@ Changed the default-generated video hash to a base 58 ULID instead of nano id.
 The product form has been reworked. Fields have been reorganized, and sections that are used less often
 are collapsed by default, to improve the clarity of the form.
 
-![Product Admin v5.1](/img/_admin51.png)
+![Product Admin v5.1](img/_admin51.png)
 
 The new v5.1 product fields, `priority` and `subtitle` have also been added to the form.
 
