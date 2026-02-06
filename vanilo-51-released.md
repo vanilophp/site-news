@@ -3,7 +3,7 @@ title: Vanilo 5.1 Released
 excerpt: Vanilo 5.1 has been released with PHP 8.5 support, cart/order item level taxes and promotions, product priority, improved tax calculations and many more. See what's new.
 date: 2025-12-03
 tags: [Releases, News, 'Vanilo 5']
-featured: true
+featured: false
 ---
 
 Vanilo 5.1 has been released with PHP 8.5 support, cart item level adjustments (taxes, promotions), product priority support and many more.
