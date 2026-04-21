@@ -3,7 +3,7 @@ title: Vanilo 6.0 - Development Started
 excerpt: What to expect in Vanilo 6, and when.
 date: 2026-02-06
 tags: [Releases, News, 'Vanilo 6']
-featured: true
+featured: false
 ---
 
 On the 5th of February 2026, the development of Vanilo 6 has started.
