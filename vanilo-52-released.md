@@ -3,7 +3,7 @@ title: Vanilo 5.2 Released
 excerpt: Vanilo 5.2 has been released with Laravel 13 support
 date: 2026-04-21
 tags: [Releases, News, 'Vanilo 5']
-featured: true
+featured: false
 ---
 
 Vanilo 5.2 has been released with Laravel 13 support.
