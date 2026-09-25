@@ -33,7 +33,10 @@ require line-level taxation.
 
 Starting with **Vanilo v6.0**, the framework introduces first-class architectural support for **Non-product Line Items**.
 
-By enabling non-product entities to act as buyable line items, systems achieve maximum data fidelity, eliminate conversion overhead between cart and ERP payloads, and unlock granular per-item tax classification.
+![Shipping Line Item](/news/img/_shipping_line_item.png)
+
+By enabling non-product entities to act as buyable line items, systems achieve maximum data fidelity,
+eliminate conversion overhead between cart and ERP payloads, and unlock granular per-item tax classification.
 
 ### LineItem Interfaces
 
