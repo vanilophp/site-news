@@ -33,7 +33,7 @@ require line-level taxation.
 
 Starting with **Vanilo v6.0**, the framework introduces first-class architectural support for **Non-product Line Items**.
 
-![Shipping Line Item](/news/img/_shipping_line_item.png)
+![Shipping Line Item on the Admin Panel](/news/img/_shipping_line_item.png)
 
 By enabling non-product entities to act as buyable line items, systems achieve maximum data fidelity,
 eliminate conversion overhead between cart and ERP payloads, and unlock granular per-item tax classification.
@@ -141,6 +141,8 @@ $order->shipping_total; // Automatically includes line items where product_type 
 ## Shipping Method Improvements
 
 Shipping methods now feature built-in usage tracking with the addition of `usage_count` and `last_usage_at` attributes. This enables analytics, usage limits, and popularity metrics for shipping options directly on the `ShippingMethod` Eloquent model.
+
+![Shipping Method Usage on the Admin Panel](/news/img/_shipping_method_usage.png)
 
 ### Database & Model Attributes
 
