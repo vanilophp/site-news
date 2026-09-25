@@ -284,7 +284,7 @@ The Category module received several enhancements to improve tree navigation, st
 
 The `Taxon` model now has an `is_active` boolean field (defaults to `true`). This allows disabling individual taxons (categories) without deleting records or breaking historical references.
 
-![Inactive Taxon on Vanilo Admin](/img/_inactive_taxon.jpg)
+![Inactive Taxon on Vanilo Admin](/news/img/_inactive_taxon.jpg)
 
 Two query scopes have been introduced to streamline filtering:
 
