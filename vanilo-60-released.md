@@ -405,6 +405,8 @@ least 14 calendar days to withdraw from distance purchase contracts without prov
 To support compliance and domain separation between regular merchant/system cancellations and customer-initiated revocations,
 Vanilo now provides first-class support for order withdrawals along with dedicated lifecycle events.
 
+![Withdrawn Order on Admin Panel](/news/img/_withdrawn_order.png)
+
 ### Key Additions & Technical Overview
 
 **The `OrderStatus` enum** now includes the `withdrawn` state (`OrderStatus::WITHDRAWN`).
